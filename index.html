@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<title>Molika Sinha</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="icon" type="image/png" href="p2.png">
+<style>
+
+
+  img{
+
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+
+  }
+
+  img:hover{
+      opacity: 0.5;
+  }
+
+
+
+.image {
+  opacity: 1;
+  display: block;
+
+
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.image:hover {
+  opacity: 0.5;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text1 {
+  background-color: rgba(18,0,5,0.9);
+  color: white;
+  font-size: 16px;
+  padding: 20px 70px;
+}
+
+.text2 {
+  background-color: rgba(18,0,5,0.9);
+  color: white;
+  font-size: 16px;
+  padding: 20px 70px;
+}
+
+.center {
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    padding: 20px 50px;
+    background-color: rgba(0,0,0,0.6);
+
+    }
+
+.hd{
+
+
+    padding: 20px 20px;
+    background-color: rgba(0,0,0,0.6);
+
+}
+
+.hd1{
+
+
+    padding: 20px 20px;
+    background-color: rgba(18,0,5,0.7);
+
+}
+
+.hd2{
+
+
+    padding: 20px 20px;
+    background-color: rgba(0,31,57,0.7);
+
+}
+.o1{
+   opacity: 0;
+   transition: 1s ease;
+
+}
+
+.image:hover .o1{
+   opacity: 1;
+}
+
+.bgimg-1 {
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-2  {
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url(index-work.jpg);
+    min-height: 100%;
+}
+
+.bgimg-2 {
+    background-image: url(index-play.jpg);
+    min-height: 100%;
+}
+
+
+
+
+
+</style>
+<body class="w3-content" style="max-width:100%">
+
+<!-- First Grid: Logo & About -->
+<div class="w3-row w3-black">
+  <a href="work.html"><div class=" bgimg-1 w3-half w3-black w3-container w3-center image w3-display-container w3-animate-left" >
+    <div class="w3-padding-64 w3-center">
+         <div class="w3-padding-64">
+      <h3 ></h3>
+    </div>
+        <div class="w3-padding-64 w3-center ">
+            <div class="w3-padding-64 w3-center">
+                <div class="w3-padding-64">
+                <h3 class="hd1 ">Keep on! Keepin' on!</h3>
+                    <h5 class="hd1 o1 w3-hide-small w3-hide-medium"><i class="fa fa-arrow-left w3-xlarge "> </i> Click this side for WORK</h5>
+                    <h5 class="hd1  w3-hide-large "><i class="fa fa-arrow-left w3-xlarge "> </i> Click this side for WORK</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+  </div>
+  </a>
+
+  <a href="play.html"><div class="w3-half w3-blue-grey w3-container image bgimg-2 w3-display-container w3-animate-right" >
+    <div class="w3-padding-64 w3-center">
+      <div class="w3-padding-64">
+      <h3></h3>
+    </div>
+        <div class="w3-padding-64 w3-center ">
+            <div class="w3-padding-64 w3-center">
+                <div class="w3-padding-64">
+                <h3 class="hd2 ">#JustanothergirlfromIndia</h3>
+                    <h5 class="hd2 o1 w3-hide-small w3-hide-medium"> Click this side for PLAY <i class="fa fa-arrow-right w3-xlarge"></i></h5>
+                    <h5 class="hd2  w3-hide-large"> Click this side for PLAY <i class="fa fa-arrow-right w3-xlarge"></i></h5>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+  </div>
+  </a>
+</div>
+
+
+
+
+<!-- Footer -->
+<footer class="w3-container w3-black w3-padding-16 w3-center">
+  <p>Copyright &copy; Molika Sinha</p>
+</footer>
+
+</body>
+</html>
